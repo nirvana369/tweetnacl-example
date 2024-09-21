@@ -1,0 +1,16 @@
+{
+  "canisters": {
+    "tweetnacl-example-backend": {
+      "main": "src/tweetnacl-example-backend/tweetnacl-example.mo",
+      "type": "motoko"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": "mops sources"
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
